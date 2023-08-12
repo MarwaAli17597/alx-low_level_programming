@@ -1,0 +1,12 @@
+include.
+main
+- Entry point
+Description: print a-z in reverse
+Return: Always O (Success)
+int eain (void)
+char ch a "z*:
+while (ch >= "a)
+putcharich
+}
+putchar("\n"):
+return (0):

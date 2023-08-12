@@ -1,0 +1,18 @@
+include‹stdio.h:
+main - Entry point
+Description: print numbers of base16 in lowercase
+Return: Always O (Success)
+int eain(void)
+int digit = 48; /*48; decimal rep of 0*/
+while (digit <= 102) /*102; decimal rep of f*/
+  putchar(digit);
++>
+after 9 we jumo till 96; °
+(digit
+ 57)
+digit
+39:
+digittti
+]
+putchar("In"):
+return (0):
