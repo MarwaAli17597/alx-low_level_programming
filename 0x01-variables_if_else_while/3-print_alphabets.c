@@ -13,7 +13,7 @@ int main(void)
 char ch = 'a';
 char CH = 'A';
 /* prints a-z*/
-while (ch <= 'Z')
+while (ch <= 'z')
 {
 putchar(ch);
 ch++;
