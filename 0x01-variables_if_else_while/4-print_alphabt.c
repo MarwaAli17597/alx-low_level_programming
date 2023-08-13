@@ -9,14 +9,13 @@
  */
 int main(void)
 {
-char ch = 'a';
-while (ch <= 'z')
+char letter;
+for (letter = 'a'; letter <= 'z'; letter++)
 {
-if (ch == 'e' || ch == 'q')
-ch++;
-putchar(ch);
-ch++;
+if (letter != 'e' && letter != 'q')
+putchar(letter);
+}
 putchar('\n');
 return (0);
 }
-}
+
