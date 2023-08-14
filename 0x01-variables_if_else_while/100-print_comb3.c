@@ -4,8 +4,6 @@
 /*
  * main - Prints all possible combinations of two different digits
  *
- * Description: Prints all possible combinations of two different digits
- *
  * Return: Always O (Success)
 */
 
