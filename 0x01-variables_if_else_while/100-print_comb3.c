@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Entry point
+ * main - Prints all possible combinations of two different digits
  *
  * Description: Prints all possible combinations of two different digits
  *
