@@ -4,7 +4,7 @@
 /*
  * main - Entry point
  *
- * Description: biationbbrewo/sigitterent
+ * Description: Prints all possible combinations of two different digits
  *
  * Return: Always O (Success)
 */
