@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * putc2 - print one char out of two of string
+ * puts2 - print one char out of two of string
  * @str: The string containing charctors
+ * Return: void
 */
 void puts2(char *str)
 {
