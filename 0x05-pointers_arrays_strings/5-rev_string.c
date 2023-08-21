@@ -7,9 +7,9 @@ void rev_string(char *s)
 {
 int line, i;
 char tmp;
-while (s[i])
-line++;
-for (i = line - 1; i >= line / 2; i--)
+for (line = 0; s[line] != '\0'; ++line)
+;
+for (i = 0; i < line / 2; i++)
 {
 tmp = s[i];
 s[i] = s[line - i - 1];
