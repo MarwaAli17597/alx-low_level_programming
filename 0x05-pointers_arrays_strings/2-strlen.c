@@ -7,8 +7,11 @@
  */
 int _strlen(char *s)
 {
-int counter;
-for (counter = 0; *s != '\0'; s++)
-++counter;
-return (counter);
+int x = 0
+while (*s != '\0')
+{
+x++;
+s++;
+}
+return (x);
 }
