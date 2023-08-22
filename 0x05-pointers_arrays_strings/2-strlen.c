@@ -11,5 +11,6 @@ int x;
 for (x = 0; *s != '\0'; s++)
 {
 ++x;
+}
 return (x);
 }
