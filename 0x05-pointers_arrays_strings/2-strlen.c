@@ -2,13 +2,13 @@
 #include <stdio.h>
 /**
  * _strlen - Returns the length of a string
- * @s: The string to get the length of
+ * @str: The string to get the length of
  * Return: the length of string
  */
-int _strlen(char *s);
+int _strlen(char *str);
 {
 int counter;
-for (counter = 0; *s != '\0'; s++)
+for (counter = 0; *str != '\0'; str++)
 counter++;
 return (counter);
 }
