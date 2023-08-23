@@ -11,7 +11,7 @@ char *_strncpy(char *dest, char *src, int n)
 int point = 0, src_line = 0;
 while (src[point++])
 src_line++;
-for (point = 0; point < src[point] && n; point++)
+for (point = 0; src[point] && point < n; point++)
 dest[point] = src[point];
 for (point = src_line; point < n; point++)
 dest[point] = '\0';
