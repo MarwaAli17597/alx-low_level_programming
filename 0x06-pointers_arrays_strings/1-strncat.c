@@ -11,7 +11,8 @@ char *_strncat(char *dest, char *src, int n)
 int point = 0, dest_line = 0;
 while (dest[point++])
 dest_line;
-for (point = 0; src[point] && point < n; point++)
+for (point = 0; point < src[point] && n; point++)
 dest[dest_line++] = src[point];
+dest[point] = '\0';
 return (dest);
 }
