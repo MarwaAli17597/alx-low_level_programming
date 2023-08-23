@@ -12,6 +12,6 @@ int point = 0, dest_line = 0;
 while (dest[point++])
 dest_line;
 for (point = 0; src[point] && point < n; point++)
-dest[dest_line++] = src[ponit];
+dest[dest_line++] = src[point];
 return (dest);
 }
