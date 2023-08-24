@@ -1,4 +1,3 @@
-#include "main.h"
 #include <stdio.h>
 
 int main(void)
@@ -12,7 +11,7 @@ p = &n;
   /**
    * write your line of code here...
    * Rember:
-   * - your not allowed to use
+   * - your not allowed to use a
    * - your not allowed to modfiy p
    * - only one statment
    * - your to code anything else than this line of code
