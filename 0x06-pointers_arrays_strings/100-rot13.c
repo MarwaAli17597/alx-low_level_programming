@@ -14,9 +14,9 @@ while (str[point1])
 {
 for (point2 = 0; point2 <= 52; point2++)
 {
-if (str[point1] == c[point2])
+if (str[point1] == c[point1])
 {
-str[point1] = rot13[point2];
+str[point1] = rot13[point1];
 break;
 }
 }
