@@ -8,11 +8,15 @@
  */
 char *_strncat(char *dest, char *src, int n)
 {
-int point = 0, dest_line = 0;
-while (dest[point++])
-dest_line;
-for (point = 0; point < src[point] && n; point++)
-dest[dest_line++] = src[point];
+int point, dest_line = 0;
+while (dest[point] != '\0')
+point++;
+while (dest_line < n && src[point] != '\0')
+{
+dest[dest_line] = src[point];
+point++;
+dest_line++;
 dest[point] = '\0';
 return (dest);
+}
 }
