@@ -32,7 +32,7 @@ x = n1[i] - '0';
 else
 x = 0;
 if (j >= 0)
-y = n2[j] - '0';
+y = n2[i] - '0';
 else
 y = 0;
 r[a] = (x + y + z) % 10 + '0';
@@ -43,9 +43,10 @@ if (z == 1)
 r[b + 1] = '\0';
 if (b + 2 > size_r)
 return (0);
-} while (b-- >= 0)
+while (b-- >= 0)
 r[b + 1] = r[b];
 r[0] = z + '0';
+}
 return (r);
 }
 
