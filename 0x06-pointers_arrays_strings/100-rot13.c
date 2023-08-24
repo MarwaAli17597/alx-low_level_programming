@@ -20,7 +20,7 @@ str[point1] = rot13[point2];
 break;
 }
 }
-point1++;
+str++;
 }
 return (str);
 }
