@@ -41,7 +41,8 @@ z = (x + y + z) / 10;
 if (z == 1)
 {
 r[b + 1] = '\0';
-(b + 2 > size_r)
+else
+  (b + 2 > size_r);
 return (0);
  }
 while (b-- >= 0)
