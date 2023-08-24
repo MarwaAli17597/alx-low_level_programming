@@ -10,7 +10,7 @@ unsigned int num;
 num = n;
 if (n < 0)
 {
-_putchar('-');
+_putchar("-");
 num = -n;
 }
 if (num / 10 != 0)
