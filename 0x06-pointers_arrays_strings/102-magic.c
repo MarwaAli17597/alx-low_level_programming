@@ -10,7 +10,7 @@ int *p;
 a[2] = 1024;
 p = &n;
   /**
-   * write you line of code here
+   * write your line of code here...
    * Rember:
    * - your not allowed to use
    * - your not allowed to modfiy p
@@ -18,7 +18,7 @@ p = &n;
    * - your to code anything else than this line of code
    */
 *(p + 5) = 98;
-  /* ...so that this prints 98\n */
+  /* main - so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
 return (0);
 }
