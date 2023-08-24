@@ -12,11 +12,11 @@ char c[52] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', '
 char rot13[52] = { 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'};
 while (str[point1])
 {
-for (point2 = 0; point2 <= 52; point2++)
+for (point1 = 0; point1 <= 52; point1++)
 {
-if (str[point1] == c[point1])
+if (str[point1] == c[point2])
 {
-str[point1] = rot13[point1];
+str[point1] = rot13[point2];
 break;
 }
 }
