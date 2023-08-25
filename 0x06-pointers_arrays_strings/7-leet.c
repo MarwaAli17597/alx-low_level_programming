@@ -7,18 +7,18 @@
  */
 char *leet(char *s)
 {
-  int i, j;
+int i, j;
 char l[] = "aAeEoOtTlL";
 char v[] = "4433007711";
- i = 0;
+i = 0;
 while (s[i] != 0)
 {
-  j = 0;
-  while (l[j] != '\0')
+j = 0;
+while (l[j] != '\0')
 {
-  if (s[i] == l[j])
-	s[i] = v[j];
-  j++;
+if (s[i] == l[j])
+s[i] = v[j];
+j++;
 }
 i++;
 }
