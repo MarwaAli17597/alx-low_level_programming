@@ -8,10 +8,11 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-unsigned int x;
+unsigned int x = 0;
 int y;
+while (*s)
 {
-for (x = 0; s[x] != '\0'; x++)
+for (y = 0; accept[y]; y++)
 {
 if (*s == accept[y])
 {
