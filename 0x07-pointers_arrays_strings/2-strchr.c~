@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * _strchr - located a charcter in string
+ * @s: string to check
+ * @c: character to find in string
+ * Return: pointer to first instance of c, otherwise NULL
+ */
+char *_strchr(char *s, char c)
+{
+int x;
+for (x = 0; s[x] >= '\0'; x++)
+{
+
+if (s[x]) == c)
+{
+return (s + x);
+}
+}
+return ('\0');
+}
