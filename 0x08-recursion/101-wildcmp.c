@@ -6,10 +6,10 @@ char *postfix_match(char *str, char *postfix);
 int wildcmp(char *s1, char *s2);
 
 /**
- * strlen_no_wilds - Returns the length of a string,ignoring wildcard characters.
+ * strlen_no_wilds - Returns length of a str,ignoring wildcard characters.
  * @str: The string to be measured.
  *
- * Return: The length.
+ * Return: The length
  */
 int strlen_no_wilds(char *str)
 {
@@ -25,7 +25,7 @@ return (len);
 }
 
 /**
- * iterate_wild - Iterates through a string located at a wildcard until it points to a non-wildcard character.
+ * iterate_wild - Iterates through a string located at a wildcard
  * @wildstr: The string to be iterated through.
  */
 void iterate_wild(char **wildstr)
@@ -38,12 +38,11 @@ iterate_wild(wildstr);
 }
 
 /**
- * postfix_match - Checks if a string str matches the postfix of
- *                 another string potentially containing wildcards.
+ * postfix_match - Checks if str matches the postfix of another str
  * @str: The string to be matched.
  * @postfix: The postfix.
  *
- * Return: If str and postfix are identical - a pointer to the null byte Otherwise - a pointer to the first unmatche 
+ * Return: If str & postfix are match a pointer to null else to first unmatche
 */
 char *postfix_match(char *str, char *postfix)
 {
@@ -60,11 +59,11 @@ return (postfix);
 }
 
 /**
- * wildcmp - Compares two strings, considering wildcard characters.
+ * wildcmp - Compares two strings, considering wildcard characters
  * @s1: The first string to be compared.
- * @s2: The second string to be compared - may contain wildcards.
+ * @s2: The second string to be compared - may contain wildcards
  *
- * Return: If the strings can be considered identical -1 Otherwise - 0.
+ * Return: If the strings can be considered identical -1 Otherwise 0
  */
 int wildcmp(char *s1, char *s2)
 {
