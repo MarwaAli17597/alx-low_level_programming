@@ -8,8 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-int arg;
-for (arg = 0; arg < argc; arg++)
-printf("%d\n", argv[arg]);
+(void)argv;
+printf("%d\n", args - 1);
 return (0);
 }
