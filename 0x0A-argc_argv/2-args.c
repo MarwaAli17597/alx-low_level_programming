@@ -6,13 +6,10 @@
  *
  * Return: always 0
  */
-int main(int argc, char const *argv[])
+int main(int argc, char *argv[])
 {
-int i = 0;
-while (argc--)
-{
+int i;
+for (i = 0; i < argc; i++)
 printf("%d\n", argv[i]);
-i++;
-}
 return (0);
 }
