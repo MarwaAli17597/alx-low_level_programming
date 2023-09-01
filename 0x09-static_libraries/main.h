@@ -3,7 +3,7 @@
 /**
  * File: main.h
  *
- * Desc: Header file contaning the prototype of all functions
+ * Des: Header file contaning the prototype used in 0x09-static_libraries
  */
 int _putchar(char c);
 int _islower(int c);
