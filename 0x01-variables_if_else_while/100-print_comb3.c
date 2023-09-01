@@ -2,12 +2,14 @@
 #include <time.h>
 #include <stdio.h>
 /*
- * main - Prints all possible combinations of two different digits
+ * main - Entry point
+ *
+ * Description: prints all possiable combinations of two different digits
  *
  * Return: Always O (Success)
 */
-
 int main(void)
+
 {
 int digit1, digit2;
 for (digit1 = 0; digit1 < 9; digit1++)
