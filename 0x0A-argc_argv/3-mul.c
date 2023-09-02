@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - prints program name
+ * main - program mulitplies two numbers
  * @argc: number of arguments
  * @argv: an array of arguments
  *
