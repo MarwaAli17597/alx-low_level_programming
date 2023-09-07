@@ -46,7 +46,7 @@ return (array);
 
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
- *                  leading zeroes until it hits a non-zero number.
+ * leading zeroes until it hits a non-zero number.
  * @str: The string of numbers to be iterate through.
  *
  * Return: A pointer to the next non-zero element.
@@ -84,7 +84,7 @@ return (digit);
  * @zeroes: The necessary number of leading zeroes.
  *
  * Description: If mult contains a non-digit, the function
- *              exits with a status value of 98.
+ * exits with a status value of 98.
  */
 void get_prod(char *prod, char *mult, int digit, int zeroes)
 {
