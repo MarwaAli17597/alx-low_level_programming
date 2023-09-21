@@ -3,8 +3,8 @@
 
 /**
  * File: lists.h
- * Auth: Brennan D Baraban
- * Desc: Header file containing prototypes in the 0x11-singly_linked_lists directory.
+ *
+ * Desc: Header file containing prototypes in the 0x11-singly_linked_lists
  */
 
 #include <stdlib.h>
@@ -16,7 +16,7 @@
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- *              for Holberton project
+ *
  */
 typedef struct list_s
 {
